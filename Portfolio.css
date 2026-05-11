@@ -14,6 +14,17 @@ header{
     flex-wrap: wrap;
 }
 
+marquee{
+    align-self: flex-end;
+    height: 30%;
+}
+
+marquee h1{
+    font-family: "Orbitron", sans-serif;
+    font-size:60px;
+    margin: 0 0 0 0;
+}
+
 conveyer{
     background-color: grey;
     height: 25px;
@@ -57,7 +68,8 @@ div{
     background-color: lightgray;
     justify-content: center;
     align-items:center;
-    font-size: larger;}
+    font-size: larger;
+}
 
 .desc{
     justify-content: space-around;
@@ -132,23 +144,32 @@ panneaux div{
     display: flex;
     flex-direction: column;
     height: 100%;
-    width: 35ch;
+    width: 50%;
 }
 
 .java{
-    margin-right: 15%;
+    margin-right: 5%;
 }
 
 .python{
-    margin-left: 15%;
+    margin-left: 5%;
 }
 
 .logos{
+    display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
+    background-color: skyblue;
+}
+
+.logos conveyer {
+    margin-bottom: 5%;
 }
 
 
 
 footer{
     background-color: rgb(10, 170, 10);
+    height: 10%;
+    width: 100%;
 }
