@@ -51,7 +51,7 @@ marquee{
 
 marquee h1{
     font-family: "Orbitron", sans-serif;
-    font-size:60px;
+    font-size:65px;
     margin: 0 0 0 0;
 }
 
@@ -73,15 +73,22 @@ sol{
 aside{
     display: flex;
     background-color: rgb(238, 221, 123);
-    position: relative;
+    position:static;
     width: 12%;
+    background-image: url(pictures/monte-charge.png);
+    background-repeat: no-repeat;
+    background-size:100%;
+    background-position-y:bottom ;
 }
 
 aside ul{
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content:space-around;
+    align-items: baseline;
     list-style: none;
+    padding-left: 0;
+    margin-left: 30%;
 }
 
 
@@ -117,6 +124,14 @@ div{
         height:70%;
         width:75%;
         margin:5% 15% 0 15%;
+        background: repeating-linear-gradient(
+        0deg,
+        rgb(110, 110, 110),
+        rgb(110, 110, 110) 10px,
+        rgb(70, 70, 70) 10px,
+        rgb(70, 70, 70) 20px
+    );
+    color: white;
     }
 
 poteaux{
@@ -135,7 +150,10 @@ poteaux{
     height: 75vh;
     justify-content: space-between;
     background-color: rgb(85, 85, 85);
-    background: radial-gradient(at 50% 1% , lightyellow 5% , grey 40%, rgb(85,85,85) 60%);
+    background: radial-gradient(at 50% 1% , 
+    lightyellow 5% , 
+    lightgrey 20%, 
+    grey 60%);
 }
 
 neon{
@@ -180,6 +198,14 @@ panneaux div{
     display: flex;
     flex-direction: column;
     border :thick solid rgb(194, 113, 8);
+    background: repeating-linear-gradient(
+        0deg,
+        rgb(110, 110, 110),
+        rgb(110, 110, 110) 10px,
+        rgb(70, 70, 70) 10px,
+        rgb(70, 70, 70) 20px
+    );
+    color: white;
     height: 100%;
     width: 50%;
 }
@@ -196,11 +222,16 @@ panneaux div{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    background-color: rgb(85, 85, 85);
+    background-color: grey;
+}
+
+.logos img{
+    flex-shrink: 2;
 }
 
 .logos conveyer {
     margin-bottom: 5%;
+    background-color: rgb(85, 85, 85);
 }
 
 /*footer*/
