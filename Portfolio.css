@@ -72,23 +72,37 @@ sol{
 
 aside{
     display: flex;
-    background-color: rgb(238, 221, 123);
     position:static;
-    width: 12%;
-    background-image: url(pictures/monte-charge.png);
-    background-repeat: no-repeat;
-    background-size:100%;
-    background-position-y:bottom ;
+    width: 10%;
+    background-color: rgb(255, 200, 97) 10%;
+    background: linear-gradient(
+    to right,
+    lightgray 0px,
+    lightgray 10%,
+    transparent 10%,
+    transparent 90%,
+    lightgray 90%
+  ),
+  repeating-linear-gradient(
+    to top,
+    rgb(255, 200, 97) 0%,
+    rgb(255, 200, 97) 19%,
+    lightgray 19%,
+    lightgray 25%
+  );
 }
 
 aside ul{
-    display: flex;
-    flex-direction: column;
-    justify-content:space-around;
-    align-items: baseline;
+    display: grid;
+    grid-template-rows: 24.5% 25.5% 25.5%;
     list-style: none;
-    padding-left: 0;
+    padding: 0;
     margin-left: 30%;
+}
+
+aside li{
+    align-self: self-end;
+    font-size: x-large;
 }
 
 
@@ -97,7 +111,7 @@ aside ul{
 content{
     background-color: skyblue;
     height: 100%;
-    width: 88%;
+    width: 90%;
 }
 
 
