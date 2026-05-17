@@ -1,8 +1,9 @@
 
+/*Accueil*/
 body{
     display: flex;
     flex-direction: column;
-    height:1-5vh;
+    height:165vh;
     margin: 0;
 }
 
@@ -16,7 +17,7 @@ main{
 
 .Titre{
     display: flex;
-    height: 200px;
+    height: 25vh;
     flex-wrap: wrap;
 }
 
@@ -260,4 +261,94 @@ footer{
     background-color: rgb(97, 187, 40);
     height: 10vh;
     width: 100%;
+}
+
+
+/*projets*/
+
+.Bproject{
+    height: 240vh;
+}
+
+
+.Pjava{
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.Pjava div{
+    height: 60%;
+    margin-top: 5%;
+    border :thick solid rgb(194, 113, 8);
+    background: repeating-linear-gradient(
+        0deg,
+        rgb(92, 92, 92),
+        rgb(92, 92, 92) 10px,
+        rgb(70, 70, 70) 10px,
+        rgb(70, 70, 70) 20px
+    );
+    color: white;
+    font-family: monospace;
+    text-align: center;
+}
+
+.Plinux{
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+}
+
+.Plinux div{
+    height: 60%;
+    border :thick solid rgb(194, 113, 8);
+    background: repeating-linear-gradient(
+        0deg,
+        rgb(92, 92, 92),
+        rgb(92, 92, 92) 10px,
+        rgb(70, 70, 70) 10px,
+        rgb(70, 70, 70) 20px
+    );
+    color: white;
+    font-family: monospace;
+    text-align: center;
+}
+
+.Ppython{
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.Ppython div{
+    height: 60%;
+    border :thick solid rgb(194, 113, 8);
+    background: repeating-linear-gradient(
+        0deg,
+        rgb(92, 92, 92),
+        rgb(92, 92, 92) 10px,
+        rgb(70, 70, 70) 10px,
+        rgb(70, 70, 70) 20px
+    );
+    color: white;
+    font-family: monospace;
+    text-align: center;
+}
+
+.PSQL{
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.PSQL div{
+    height: 60%;
+    border :thick solid rgb(194, 113, 8);
+    background: repeating-linear-gradient(
+        0deg,
+        rgb(92, 92, 92),
+        rgb(92, 92, 92) 10px,
+        rgb(70, 70, 70) 10px,
+        rgb(70, 70, 70) 20px
+    );
+    color: white;
+    font-family: monospace;
+    text-align: center;
 }
