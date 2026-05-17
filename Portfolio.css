@@ -72,7 +72,7 @@ sol{
 
 aside{
     display: flex;
-    position:static;
+    justify-content: center; /* horizontal */
     width: 10%;
     background-color: rgb(255, 200, 97) 10%;
     background: linear-gradient(
@@ -97,12 +97,11 @@ aside ul{
     grid-template-rows: 24.5% 25.5% 25.5%;
     list-style: none;
     padding: 0;
-    margin-left: 30%;
 }
 
 aside li{
     align-self: self-end;
-    font-size: x-large;
+    font-size: clamp(16px, 2vw, 32px);;
 }
 
 
@@ -125,7 +124,7 @@ div{
     background-color: lightgray;
     justify-content: center;
     align-items:center;
-    font-size: larger;
+    
 }
 
 .desc{
@@ -140,13 +139,17 @@ div{
         margin:5% 15% 0 15%;
         background: repeating-linear-gradient(
         0deg,
-        rgb(110, 110, 110),
-        rgb(110, 110, 110) 10px,
+        rgb(92, 92, 92),
+        rgb(92, 92, 92) 10px,
         rgb(70, 70, 70) 10px,
         rgb(70, 70, 70) 20px
     );
     color: white;
+    font-size: clamp(16px, 4vw, 48px);
+    font-family: monospace;
+    text-align: center;
     }
+    
 
 poteaux{
     height:20%;
@@ -214,22 +217,25 @@ panneaux div{
     border :thick solid rgb(194, 113, 8);
     background: repeating-linear-gradient(
         0deg,
-        rgb(110, 110, 110),
-        rgb(110, 110, 110) 10px,
+        rgb(92, 92, 92),
+        rgb(92, 92, 92) 10px,
         rgb(70, 70, 70) 10px,
         rgb(70, 70, 70) 20px
     );
     color: white;
     height: 100%;
     width: 50%;
+    text-align: center;
 }
 
 .java{
     margin-right: 5%;
+    font-size: clamp(16px, 3vw, 40px);
 }
 
 .python{
     margin-left: 5%;
+    font-size: clamp(16px, 3vw, 40px);
 }
 
 .logos{
