@@ -158,8 +158,6 @@ poteaux{
     background-color: orange;
 }
 
-
-
 .competences{
     margin-top: 5%;
     display: flex;
@@ -189,7 +187,7 @@ support{
     flex-direction: column;
     justify-content: space-between;
     width: 15%;
-    height : 65%;
+    height: 65%;
 }
 
 suptop{
@@ -231,12 +229,12 @@ panneaux div{
 
 .java{
     margin-right: 5%;
-    font-size: clamp(16px, 3vw, 40px);
+    font-size: clamp(16px, 3vw, 32px);
 }
 
 .python{
     margin-left: 5%;
-    font-size: clamp(16px, 3vw, 40px);
+    font-size: clamp(16px, 3vw, 32px);
 }
 
 .logos{
@@ -279,6 +277,7 @@ footer{
 .Pjava div{
     height: 60%;
     margin-top: 5%;
+    max-width: 55%;
     border :thick solid rgb(194, 113, 8);
     background: repeating-linear-gradient(
         0deg,
@@ -287,9 +286,11 @@ footer{
         rgb(70, 70, 70) 10px,
         rgb(70, 70, 70) 20px
     );
+    font-size: 20px;
     color: white;
     font-family: monospace;
     text-align: center;
+    text-wrap:initial;
 }
 
 .Plinux{
