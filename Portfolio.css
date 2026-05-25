@@ -105,6 +105,11 @@ aside li{
     font-size: clamp(16px, 2vw, 32px);;
 }
 
+a{
+    list-style: none;
+    font-style: normal;
+}
+
 
 /*Partie principale*/
 
@@ -268,6 +273,9 @@ footer{
     height: 240vh;
 }
 
+.Bproject poteaux{
+    height: 10%;
+}
 
 .Pjava{
     justify-content: space-around;
@@ -286,7 +294,7 @@ footer{
         rgb(70, 70, 70) 10px,
         rgb(70, 70, 70) 20px
     );
-    font-size: 20px;
+    font-size: 1.6vw;
     color: white;
     font-family: monospace;
     text-align: center;
@@ -301,6 +309,8 @@ footer{
 
 .Plinux div{
     height: 60%;
+    max-width: 55%;
+    font-size: 1.6vw;
     border :thick solid rgb(194, 113, 8);
     background: repeating-linear-gradient(
         0deg,
@@ -321,6 +331,8 @@ footer{
 
 .Ppython div{
     height: 60%;
+    max-width: 55%;
+    font-size: 1.6vw;
     border :thick solid rgb(194, 113, 8);
     background: repeating-linear-gradient(
         0deg,
@@ -341,6 +353,8 @@ footer{
 
 .PSQL div{
     height: 60%;
+    max-width: 55%;
+    font-size: 1.6vw;
     border :thick solid rgb(194, 113, 8);
     background: repeating-linear-gradient(
         0deg,
