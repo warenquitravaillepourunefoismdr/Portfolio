@@ -107,7 +107,13 @@ aside li{
 
 a{
     list-style: none;
-    font-style: normal;
+    font-style:normal;
+    text-decoration: none;
+    color: black;
+}
+
+a:visited {
+    color: blue;
 }
 
 
@@ -151,7 +157,7 @@ div{
         rgb(70, 70, 70) 20px
     );
     color: white;
-    font-size: clamp(16px, 4vw, 48px);
+    font-size: 2.5vw;
     font-family: monospace;
     text-align: center;
     }
@@ -234,12 +240,12 @@ panneaux div{
 
 .java{
     margin-right: 5%;
-    font-size: clamp(16px, 3vw, 32px);
+        font-size: 1.5vw;
 }
 
 .python{
     margin-left: 5%;
-    font-size: clamp(16px, 3vw, 32px);
+        font-size: 1.5vw;
 }
 
 .logos{
@@ -273,9 +279,27 @@ footer{
     height: 240vh;
 }
 
+.Bproject .funnel_part{
+    height: 80%;
+}
+
+.Bproject marquee{
+    margin-top: 2%;
+    height: 45%;
+}
+
+.Bproject h1{
+    height: 75%;
+}
+
 .Bproject poteaux{
     height: 10%;
 }
+
+.Bproject sol{
+    align-self: flex-end;
+}
+
 
 .Pjava{
     justify-content: space-around;
