@@ -275,7 +275,8 @@ footer{
 /*projets*/
 
 .Bproject{
-    height: 290vh;
+    height: 330vh;
+
 }
 
 .Bproject .funnel_part{
@@ -297,11 +298,16 @@ footer{
     width: 100%;
 }
 
+.CompNational{
+    height: 80vh;
+}
+
 .Pcontent > *:not(:first-child){
     display: grid;
     grid-auto-flow: row;
     grid-template-rows: 75% 15% 10%;
     grid-template-columns: 25% 25% 25% 25%;
+    
 
 }
 
@@ -311,7 +317,8 @@ footer{
     grid-column-end: 3;
     margin-top: 5%;
     max-height: 90%;
-    max-width: 100%;
+    max-width: 95%;
+    padding:0 5% 0 5%;
     border :thick solid rgb(194, 113, 8);
     background: repeating-linear-gradient(
         0deg,
@@ -323,7 +330,7 @@ footer{
     font-size: 1.6vw;
     color: white;
     font-family: monospace;
-    text-align: center;
+    text-align: justify;
     text-wrap:initial;
 
 }
