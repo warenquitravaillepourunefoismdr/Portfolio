@@ -280,7 +280,7 @@ footer{
 
 .Bproject{
     height: 330vh;
-
+    color: radial;
 }
 
 .Bproject .funnel_part{
@@ -305,7 +305,7 @@ footer{
 /*Compétences nationales*/
 mur{
     display: grid;
-    grid-template-rows: 70% 20%;
+    grid-template-rows: 70% 30%;
     grid-template-columns: repeat(6,1fr);
     margin-top: 2%;
     background-color: yellow;
@@ -313,8 +313,6 @@ mur{
     grid-row-start:1;
     grid-row-end:3;
     height: 100%;
-    justify-content: space-around;
-    align-items: center;
 }
 
 .CGdesc p{
@@ -323,24 +321,141 @@ mur{
     font-size: 2vw;
 }
 
+
+
+input{
+    align-self: center;
+    justify-self: center;
+    appearance: none;
+    cursor: pointer;
+    height: 30%;
+    width: 30%;
+    border-radius: 50%;
+}
+
+#Bc1{
+    background: radial-gradient(
+        circle at center,
+        rgb(233, 89, 89) 40%,
+        rgba(252, 98, 98, 0.788) 100%
+    );
+    border:thick solid rgb(252, 98, 98, 0.788);
+}
+
+#Bc1:checked{
+    background: radial-gradient(
+        circle at center,
+        rgba(255, 143, 143, 0.788) 40%,
+        rgb(233, 89, 89) 100%
+    );
+    border: none;
+}
+
 #Bc1:checked ~ .CGdesc .Tc1{
     display: block;
    
 }
+
+#Bc2{
+    background: radial-gradient(
+        circle at center,
+        red 40%,
+        rgb(253, 0, 0) 100%
+    );
+    border:thick solid red;
+}
+
+#Bc2:checked{
+    background: radial-gradient(
+        circle at center,
+         rgb(243, 102, 102) 40%,
+        rgb(253, 0, 0) 100%
+    );
+    border: none;
+}
+
 #Bc2:checked ~ .CGdesc .Tc2{
     display: block;
+}
+
+#Bc3{
+    background: radial-gradient(
+        circle at center,
+        rgb(150, 145, 145) 100%
+    );
+    border:thick solid rgb(119, 117, 117);
+}
+
+#Bc3:checked{
+    background: radial-gradient(
+        circle at center,
+         rgb(255, 255, 255) 40%,
+        rgb(136, 135, 135) 100%
+    );
+    border: none;
 }
 
 #Bc3:checked ~ .CGdesc .Tc3{
     display: block;
 }
 
+#Bc4{
+    background: radial-gradient(
+        circle at center,
+        rgb(0, 141, 0) 100%
+    );
+    border:thick solid green;
+}
+
+#Bc4:checked{
+    background: radial-gradient(
+        circle at center,
+         rgb(0, 255, 0) 40%,
+       rgb(0, 141, 0) 100%
+    );
+    border: none;
+}
+
 #Bc4:checked ~ .CGdesc .Tc4{
     display: block;
 }
 
+#Bc5{
+    background: radial-gradient(
+        circle at center,
+        rgb(67, 67, 248) 100%
+    );
+    border:thick solid blue;
+}
+
+#Bc5:checked{
+    background: radial-gradient(
+        circle at center,
+         rgb(145, 145, 255) 40%,
+       rgb(67, 67, 248) 100%
+    );
+    border: none;
+}
+
 #Bc5:checked ~ .CGdesc .Tc5{
     display: block;
+}
+
+#Bc6{
+    background: radial-gradient(
+        circle at center,
+        rgb(121, 56, 0) 100%
+    );
+    border:thick solid rgb(88,41,0);
+}
+
+#Bc6:checked{
+    background: radial-gradient(
+        circle at center,
+         rgb(219, 108, 10) 40%,
+       rgb(121, 56, 0) 100%
+    );
+    border: none;
 }
 
 #Bc6:checked ~ .CGdesc .Tc6{
