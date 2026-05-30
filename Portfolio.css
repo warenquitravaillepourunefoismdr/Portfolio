@@ -302,6 +302,57 @@ footer{
     width: 100%;
 }
 
+/*Compétences nationales*/
+mur{
+    display: grid;
+    grid-template-rows: 70% 20%;
+    grid-template-columns: repeat(6,1fr);
+    margin-top: 2%;
+    background-color: yellow;
+    grid-column:2 ;
+    grid-row-start:1;
+    grid-row-end:3;
+    height: 100%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.CGdesc p{
+    display: none;
+    text-align: justify;
+    font-size: 2vw;
+}
+
+#Bc1:checked ~ .CGdesc .Tc1{
+    display: block;
+   
+}
+#Bc2:checked ~ .CGdesc .Tc2{
+    display: block;
+}
+
+#Bc3:checked ~ .CGdesc .Tc3{
+    display: block;
+}
+
+#Bc4:checked ~ .CGdesc .Tc4{
+    display: block;
+}
+
+#Bc5:checked ~ .CGdesc .Tc5{
+    display: block;
+}
+
+#Bc6:checked ~ .CGdesc .Tc6{
+    display: block;
+}
+
+.Pcontent > :nth-child(2) sol{
+    grid-column-start:1 ;
+    grid-column-end: 7 ;
+}
+
+/*Autres descriptions*/
 
 .Pcontent > *:not(:first-child){
     display: grid;
@@ -313,26 +364,7 @@ footer{
 .Pcontent > :nth-child(2){
     height: 80vh;
     grid-template-rows: 65% 25% 10%;
-    grid-template-columns: repeat(6,1fr);
-}
-
-mur{
-    display: flex;
-    background-color: yellow;
-    grid-column-start:2 ;
-    grid-column-end: 6;
-    height: 100%;
-    justify-content: space-around;
-    align-items: center;
-}
-
-mur input{
-    
-}
-
-.Pcontent > :nth-child(2) sol{
-    grid-column-start:1 ;
-    grid-column-end: 7 ;
+    grid-template-columns: 12.5% 75% 12.5%;
 }
 
 .Pcontent > *:not(:first-child) div{
@@ -360,8 +392,12 @@ mur input{
 }
 
 .Pcontent > :nth-child(2) div{
-    grid-column-start:2 ;
-    grid-column-end: 6 ;
+    grid-column-start:1 ;
+    grid-column-end: 7 ;
+    grid-row: 1;
+    max-width: 100%;
+    height: 100%;
+    margin-top: 0;
 }
 
 .Pcontent >:nth-child(3),
