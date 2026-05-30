@@ -333,6 +333,10 @@ input{
     border-radius: 50%;
 }
 
+input:checked {
+    cursor: default;
+}
+
 #Bc1{
     background: radial-gradient(
         circle at center,
@@ -503,8 +507,8 @@ input{
     font-family: monospace;
     text-align: justify;
     text-wrap:initial;
-
 }
+
 
 .Pcontent > :nth-child(2) div{
     grid-column-start:1 ;
@@ -532,6 +536,35 @@ input{
     margin-bottom: 5%;
 }
 
+.Pcontent >:nth-child(4) .ExtendComp,
+.Pcontent >:nth-child(6) .ExtendComp{
+    grid-row: 1;
+    grid-column:3;
+    margin-top: 10%;
+    margin-bottom: 0;
+    width: 33%;
+    height: 60%;
+    justify-self: left;
+    align-self:center;
+    font-size: 1.4vw;
+    text-align: center;
+}
+
+
+.Pcontent >:nth-child(3) .ExtendComp,
+.Pcontent >:nth-child(5) .ExtendComp{
+    grid-row: 2;
+    grid-column:2;
+    margin-top: 0;
+    margin-bottom: 10%;
+    width: 33%;
+    height: 60%;
+    justify-self: right;
+    align-self:center;
+    font-size: 1.4vw;
+    text-align: center;
+}
+
 .Bproject poteaux{
     height: 100%;
     grid-row:2;
@@ -556,5 +589,6 @@ input{
     grid-column-end:last;
     height: 100%;
 }
+
 
 
