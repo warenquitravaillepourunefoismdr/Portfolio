@@ -597,6 +597,10 @@ input:checked {
     height: 100%;
 }
 
+/*footer*/
 
+footer span{
+    align-self: center;
+}
 
 
