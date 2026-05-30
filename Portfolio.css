@@ -105,7 +105,10 @@ aside ul{
 
 aside li{
     align-self: self-end;
-    font-size: clamp(16px, 2vw, 32px);;
+    justify-self: center;
+    font-size: 1.7vw;
+    margin-bottom: 10%;
+    font-family: "Orbitron", sans-serif
 }
 
 a{
@@ -322,7 +325,6 @@ mur{
 }
 
 
-
 input{
     align-self: center;
     justify-self: center;
@@ -507,6 +509,7 @@ input:checked {
     font-family: monospace;
     text-align: justify;
     text-wrap:initial;
+    font-family: "JetBrains Mono", monospace;
 }
 
 
@@ -546,7 +549,7 @@ input:checked {
     height: 60%;
     justify-self: left;
     align-self:center;
-    font-size: 1.4vw;
+    font-size: 1.3vw;
     text-align: center;
 }
 
@@ -561,7 +564,7 @@ input:checked {
     height: 60%;
     justify-self: right;
     align-self:center;
-    font-size: 1.4vw;
+    font-size: 1.3vw;
     text-align: center;
 }
 
@@ -589,6 +592,7 @@ input:checked {
     grid-column-end:last;
     height: 100%;
 }
+
 
 
 
