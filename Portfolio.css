@@ -617,21 +617,51 @@ footer span{
 .Formulaire{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 80% 20%;
+    grid-template-rows: 10% 75% 15%;
     height:80%;
     background-color: rgb(85,85, 85);
+    background: radial-gradient(at 50% 1% , 
+    lightyellow 5% , 
+    lightgrey 20%, 
+    grey 30%);
+}
+
+.Formulaire neon{
+    grid-column-start:1 ;
+    grid-column-end: 3;
+    height:50%;
+    width: 20%;
+    justify-self: center;
+    margin-top: 3%;
 }
 
 .clipboard{
-    height: 85%;
-    width: 60%;
+    flex-direction: column;
+    height: 90%;
+    width: 65%;
     background-color: burlywood;
     border-radius: 10px;
     align-self: end;
     justify-self: center;
-    grid-row-start: 1 ;
+    grid-row-start: 2 ;
     grid-row-end: last ;
     grid-column: 2;
+}
+
+.tabInfo h2{
+    justify-self: center;
+}
+
+.clipmetal{
+    height: 8%;
+    width: 40%;
+    background-color: gainsboro;
+}
+
+.clippaper{
+    background-color: white;
+    height: 90%;
+    width: 80%;
 }
 
 .tabInfo{
@@ -655,10 +685,9 @@ footer span{
     justify-self: center;
     margin: 0;
     padding: 0 5% 0 5%;
+    grid-row: 2;
 }
 
-.tabInfo h2{
-    justify-self: center;
-}
+
 
 
