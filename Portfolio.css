@@ -659,9 +659,21 @@ footer span{
 }
 
 .clippaper{
+    display: flex;
+    flex-direction: column;
     background-color: white;
     height: 90%;
     width: 80%;
+    justify-content: space-around;
+}
+
+.clippaper div {
+    background-color: white;
+    height: 10%;
+}
+
+.clippaper .Fmessage{
+    height: 50%;
 }
 
 .tabInfo{
